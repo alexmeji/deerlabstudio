@@ -13,7 +13,7 @@ export default function Banner() {
   return (
     <section
       className="banner-area bg-image"
-      data-background="/assets/images/banner/banner-image.png"
+      data-background="./assets/images/banner/banner-image.png"
     >
       <div className="banner__info">
         <div className="content">

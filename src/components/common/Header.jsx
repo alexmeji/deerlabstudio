@@ -66,7 +66,7 @@ export default function Header() {
           <div className="header__main header__main-one">
             <Link href="/" className="logo">
               <Image
-                src="/assets/deerlab/logodeerlab.png"
+                src="./assets/deerlab/logodeerlab.png"
                 height={45}
                 width={45}
                 alt="logo"

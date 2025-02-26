@@ -12,7 +12,7 @@ export default function Footer() {
           <div className="footer__item footer-about">
             <Link href="/" className="logo mb-4">
               <Image
-                src="/assets/deerlab/logodeerlab.png"
+                src="./assets/deerlab/logodeerlab.png"
                 alt="logo"
                 height={80}
                 width={80}

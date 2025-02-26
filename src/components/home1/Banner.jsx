@@ -17,7 +17,7 @@ export default function Banner() {
     >
       <div className="banner__info">
         <div className="content">
-          <img src="assets/images/banner/banner-user.png" alt="image" />
+          <img src="./assets/images/banner/banner-user.png" alt="image" />
           <h3 className="mt-15 mb-1">
             <span className="count">5</span>+
           </h3>

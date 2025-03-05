@@ -74,7 +74,12 @@ export default function Footer() {
           <div className="footer__item footer-subscribe">
             <h3>Contactanos</h3>
             <div className="subscribe-feild">
-              <button>Agenda una llamada</button>
+              <Link
+                href="https://calendar.app.google/egcEQvNAueKG5j9T7"
+                target="_blank"
+              >
+                Agenda una llamada
+              </Link>
             </div>
           </div>
         </div>

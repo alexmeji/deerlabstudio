@@ -54,7 +54,11 @@ export default function Banner() {
             con apoyo experto y dirección estratégica.
           </p>
           <div className="d-flex align-items-center gap-3">
-            <Link href="/contact" className="btn-one wow slideInLeft btn-icon">
+            <Link
+              href="https://calendar.app.google/egcEQvNAueKG5j9T7"
+              className="btn-one wow slideInLeft btn-icon"
+              target="_blank"
+            >
               <FaCalendarAlt />
               Agenda una Consulta
             </Link>

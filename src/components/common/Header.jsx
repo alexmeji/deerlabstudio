@@ -92,7 +92,11 @@ export default function Header() {
               </nav>
             </div>
             <div className="menu-btns d-none d-lg-flex">
-              <Link className="menu-btn-one" href="/contact">
+              <Link
+                className="menu-btn-one"
+                href="https://calendar.app.google/egcEQvNAueKG5j9T7"
+                target="_blank"
+              >
                 <FaCalendarAlt /> Agenda una Consulta
               </Link>
             </div>

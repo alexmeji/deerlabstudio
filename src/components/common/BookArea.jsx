@@ -1,27 +1,41 @@
-import Link from 'next/link'
-import React from 'react'
+import Link from "next/link";
+import React from "react";
 
 export default function BookArea() {
-    return (
-        <section className="book-area">
-            <div className="container">
-                <div className="book__wrp">
-                    <div className="book__shape1">
-                        <img src="assets/images/shape/book-star.png" alt="shape" />
-                    </div>
-                    <div className="book__shape2">
-                        <img src="assets/images/shape/book-star.png" alt="shape" />
-                    </div>
-                    <div className="book__left-arry">
-                        <img src="assets/images/shape/book-btn-left.png" alt="shape" />
-                    </div>
-                    <div className="book__right-arry">
-                        <img src="assets/images/shape/book-btn-right.png" alt="shape" />
-                    </div>
-                    <div className="book__item">
-                        <h2>!Hagamos algo <span>asombroso <img src="assets/images/shape/title-line-book.png" alt="shape" /></span> juntos!</h2>
-                        <p className="mt-20 mb-25">¿Listo para elevar su presencia en línea? Ponte en contacto con nosotros hoy para Soluciones <br /> personalizadas adaptadas a las necesidades de su negocio.</p>
-                        {/* <ul className="d-flex align-items-center gap-2 gap-md-4 flex-wrap justify-content-center">
+  return (
+    <section className="book-area">
+      <div className="container">
+        <div className="book__wrp">
+          <div className="book__shape1">
+            <img src="assets/images/shape/book-star.png" alt="shape" />
+          </div>
+          <div className="book__shape2">
+            <img src="assets/images/shape/book-star.png" alt="shape" />
+          </div>
+          <div className="book__left-arry">
+            <img src="assets/images/shape/book-btn-left.png" alt="shape" />
+          </div>
+          <div className="book__right-arry">
+            <img src="assets/images/shape/book-btn-right.png" alt="shape" />
+          </div>
+          <div className="book__item">
+            <h2>
+              !Hagamos algo{" "}
+              <span>
+                asombroso{" "}
+                <img
+                  src="assets/images/shape/title-line-book.png"
+                  alt="shape"
+                />
+              </span>{" "}
+              juntos!
+            </h2>
+            <p className="mt-20 mb-25">
+              ¿Listo para elevar su presencia en línea? Ponte en contacto con
+              nosotros hoy para Soluciones <br /> personalizadas adaptadas a las
+              necesidades de su negocio.
+            </p>
+            {/* <ul className="d-flex align-items-center gap-2 gap-md-4 flex-wrap justify-content-center">
                             <li><svg className="me-1" width={18} height={18} viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path fillRule="evenodd" clipRule="evenodd" d="M17.1221 6.88023L16.6812 6.43922C16.4002 6.15822 16.2421 5.77622 16.2421 5.37822V4.75722C16.2421 3.10122 14.9002 1.75923 13.2442 1.75923H12.6232C12.2252 1.75923 11.8442 1.60124 11.5622 1.32024L11.1212 0.879227C9.95017 -0.291773 8.05218 -0.291773 6.88118 0.879227L6.44014 1.32024C6.15914 1.60124 5.77723 1.75923 5.37923 1.75923H4.75826C3.10225 1.75923 1.76021 3.10122 1.76021 4.75722V5.37822C1.76021 5.77622 1.60224 6.15722 1.32124 6.43922L0.880203 6.88023C-0.290797 8.05123 -0.290797 9.94922 0.880203 11.1202L1.32124 11.5612C1.60224 11.8422 1.76021 12.2242 1.76021 12.6222V13.2432C1.76021 14.8992 3.10225 16.2412 4.75826 16.2412H5.37923C5.77723 16.2412 6.15814 16.3992 6.44014 16.6802L6.88118 17.1212C8.05218 18.2922 9.95017 18.2922 11.1212 17.1212L11.5622 16.6802C11.8432 16.3992 12.2252 16.2412 12.6232 16.2412H13.2442C14.9002 16.2412 16.2421 14.8992 16.2421 13.2432V12.6222C16.2421 12.2242 16.4002 11.8432 16.6812 11.5612L17.1221 11.1202C18.2931 9.94922 18.2931 8.05123 17.1221 6.88023ZM12.5302 7.53023L8.53023 11.5302C8.38423 11.6762 8.1922 11.7502 8.0002 11.7502C7.8082 11.7502 7.61617 11.6772 7.47017 11.5302L5.47017 9.53023C5.17717 9.23723 5.17717 8.76222 5.47017 8.46922C5.76317 8.17622 6.2382 8.17622 6.5312 8.46922L8.00117 9.93922L11.4711 6.46922C11.7641 6.17622 12.2392 6.17622 12.5322 6.46922C12.8232 6.76222 12.8232 7.23823 12.5302 7.53023Z" fill="white" fillOpacity="0.7" />
                             </svg>
@@ -40,15 +54,20 @@ export default function BookArea() {
                                 Affordable Pricing Plan
                             </li>
                         </ul> */}
-                        <Link href="/contact" className="btn-two border-none mt-45">Reserve una consulta gratuita
-                            <span>
-                                <i className="fa-regular fa-arrow-up-right arry1" />
-                                <i className="fa-regular fa-arrow-up-right arry2" />
-                            </span>
-                        </Link>
-                    </div>
-                </div>
-            </div>
-        </section>
-    )
+            <Link
+              href="https://calendar.app.google/egcEQvNAueKG5j9T7"
+              target="_blank"
+              className="btn-two border-none mt-45"
+            >
+              Reserve una consulta gratuita
+              <span>
+                <i className="fa-regular fa-arrow-up-right arry1" />
+                <i className="fa-regular fa-arrow-up-right arry2" />
+              </span>
+            </Link>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
 }

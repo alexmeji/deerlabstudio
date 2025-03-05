@@ -13,7 +13,7 @@ export default function TopHeader() {
               <i className="ri-time-line"></i>
               <span className="paragraph-light">
                 <span className="text-white">Horas Laborales: </span>
-                Lunes - Sabado, 8am - 05pm
+                &nbsp;Lunes - Sabado, 8am - 05pm
               </span>
             </li>
           </ul>

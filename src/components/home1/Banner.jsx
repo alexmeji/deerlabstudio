@@ -41,7 +41,7 @@ export default function Banner() {
             Ayudamos <br />
             <Typewriter
               options={{
-                strings: ["Emprededores", "Startups", "Empresas"],
+                strings: ["Pymes", "Startups", "Empresas"],
                 autoStart: true,
                 loop: true,
                 cursor: "",

@@ -21,7 +21,7 @@
 .header-top {
 	padding: 8px 0;
 	overflow: hidden;
-	background-color: #215846;
+	background-color: var(--secondary-color);
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -29,7 +29,7 @@
 	z-index: 999;
 
 	&-area {
-		background-color: #1c2c26;
+		background-color: var(--secondary-color);;
 		position: fixed;
 	}
 
@@ -395,7 +395,7 @@
 				font-size: 18px;
 				line-height: 30px;
 				padding: 8px 20px;
-				background-color: #256f56;
+				background-color: var(--primary-color);
 				color: var(--white);
 				text-transform: capitalize;
 				border-radius: 12px;
@@ -484,7 +484,7 @@
 // Offcanvas area start here ***
 .offcanvas {
 	width: 375px !important;
-	border-left: 3px solid #37d284 !important;
+	border-left: 3px solid var(--primary-color) !important;
 
 	@media screen and (max-width: 375px) {
 		width: 320px !important;
@@ -503,7 +503,7 @@
 		@include radius(25px, 25px, 25px);
 		font-size: 22px;
 		color: var(--white);
-		background-color: var(--yellow-color);
+		background-color: var(--primary-color);
 		opacity: 1;
 		background-image: none;
 		transition: var(--transition);
@@ -530,7 +530,7 @@
 
 			li {
 				@include radius(40px, 40px, 35px);
-				background-color: #37d284;
+				background-color: var(--primary-color);
 			}
 		}
 	}

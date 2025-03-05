@@ -125,7 +125,12 @@ export default function Header() {
       >
         <Offcanvas.Header className="offcanvas-header">
           <Link href="/" className="logo">
-            <img src="assets/images/logo/logo-light.svg" alt="logo" />
+            <Image
+              src="./assets/deerlab/logodeerlab.png"
+              height={70}
+              width={70}
+              alt="logo"
+            />
           </Link>
           <button
             onClick={handleClose}

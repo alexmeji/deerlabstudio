@@ -178,8 +178,8 @@
 	&-backToTop {
 		@include radius(40px, 40px, 40px);
 		border-radius: 12px;
-		background-color: #68dc80;
-		color: var(--heading-color);
+		background-color: var(--primary-color);
+		color: var(--main-bg);
 		font-size: 18px;
 		box-shadow: var(--shadow);
 		position: fixed;

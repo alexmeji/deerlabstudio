@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://deerlab.studio
+
+# Sitemaps
+Sitemap: https://deerlab.studio/sitemap.xml

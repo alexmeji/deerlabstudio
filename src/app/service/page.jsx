@@ -4,6 +4,12 @@ import Services from "@/components/service/Services";
 import WhyChoose from "@/components/service/WhyChoose";
 import React from "react";
 
+export const metadata = {
+  title: "Servicios",
+  description:
+    "Nuestros servicios son de alta calidad y asequibles. Ofrecemos servicios de diseño web, desarrollo de aplicaciones, marketing digital y mucho más.",
+};
+
 export default function page() {
   const bannerContent = {
     title: "Servicios",

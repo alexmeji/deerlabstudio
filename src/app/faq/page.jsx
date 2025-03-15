@@ -2,6 +2,12 @@ import Banner from "@/components/common/Banner";
 import FAQ from "@/components/faq/FAQ";
 import React from "react";
 
+export const metadata = {
+  title: "Preguntas Frecuentes",
+  description:
+    "Aquí encontrarás las respuestas a las preguntas más frecuentes que nuestros clientes nos hacen. Si no encuentras la respuesta a tu pregunta, no dudes en contactarnos. Estamos aquí para ayudarte en todo lo que necesites.",
+};
+
 export default function page() {
   const faqBanner = {
     title: "Preguntas Frecuentes",

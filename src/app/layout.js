@@ -13,7 +13,7 @@ import Header from "@/components/common/Header";
 import BookArea from "@/components/common/BookArea";
 import BackToTop from "@/components/BackToTop";
 import Footer from "@/components/common/Footer";
-import { Head } from "next/document";
+import Script from "next/script";
 const isServer = typeof window === "undefined";
 
 export const metadata = {
@@ -35,7 +35,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <Head>
+      <head>
         <Script
           async
           src="https://www.googletagmanager.com/gtag/js?id=G-R7B6SMKTY8"
@@ -80,7 +80,7 @@ export default function RootLayout({ children }) {
           name="twitter:image"
           content="https://deerlab.studio/assets/deerlab/logodeerlab.png"
         />
-      </Head>
+      </head>
       <body className={inter.className}>
         <TopHeader />
         <Header />
